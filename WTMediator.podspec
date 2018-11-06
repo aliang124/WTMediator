@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name         = "WTMediator"
-  s.version      = "0.0.5"
+  s.version      = "0.0.1"
   s.summary      = "WTMediator 模块间跳转中间件"
 
-  s.homepage     = "https://github.com/aliang666/WTMediator"
+  s.homepage     = "https://github.com/aliang124/WTMediator"
 
   s.license      = "MIT"
   s.author             = { "jienliang000" => "jienliang000@163.com" }
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'CTMediator',  '~> 13'
 
-  s.source       = { :git => "https://github.com/aliang666/WTMediator.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/aliang124/WTMediator.git", :tag => "#{s.version}" }
   s.source_files  = "WTMediator/*.{h,m}"
 
 end
