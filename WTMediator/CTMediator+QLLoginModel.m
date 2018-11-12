@@ -10,7 +10,7 @@
 
 @implementation CTMediator (WTOtherModel)
 -(void)CameraVC_Action:(NSDictionary *)param {
-    [self performTarget:@"OtherModel" action:@"CameraVC" params:param shouldCacheTarget:NO];
+    [self performTarget:@"QLLoginModel" action:@"loginVC" params:param shouldCacheTarget:NO];
 }
 
 @end
