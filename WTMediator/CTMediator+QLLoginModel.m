@@ -6,10 +6,10 @@
 //  Copyright © 2018年 elji. All rights reserved.
 //
 
-#import "CTMediator+OtherModel.h"
+#import "CTMediator+QLLoginModel.h"
 
-@implementation CTMediator (WTOtherModel)
--(void)CameraVC_Action:(NSDictionary *)param {
+@implementation CTMediator (QLLoginModel)
+-(void)loginVC_Action:(NSDictionary *)param {
     [self performTarget:@"QLLoginModel" action:@"loginVC" params:param shouldCacheTarget:NO];
 }
 

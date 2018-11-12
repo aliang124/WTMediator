@@ -8,7 +8,7 @@
 
 #import "CTMediator.h"
 
-@interface CTMediator (LoginModel)
--(void)CameraVC_Action:(NSDictionary *)param;
+@interface CTMediator (QLLoginModel)
+-(void)loginVC_Action:(NSDictionary *)param;
 
 @end
